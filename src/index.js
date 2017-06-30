@@ -6,8 +6,6 @@ import { createStore, applyMiddleware } from 'redux';
 import App from './components/app';
 import reducers from './reducers';
 
-const API_KEY = 'AIzaSyDiOUZVX77uEIKvUD0YSxpBnwJCHqIMdkA';
-
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 ReactDOM.render(
